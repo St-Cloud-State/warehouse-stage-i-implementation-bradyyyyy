@@ -1,0 +1,23 @@
+Script started on 2024-09-30 22:19:21+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="282" LINES="15"]
+[0;32m@bradyyyyy [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-bradyyyyy/Warehouse-Product [0;36m([1;31mmain[0;36m) [0m$ javac Product.java
+[0;32m@bradyyyyy [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-bradyyyyy/Warehouse-Product [0;36m([1;31mmain[0;36m) [0m$ javac ProductList.java
+[0;32m@bradyyyyy [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-bradyyyyy/Warehouse-Product [0;36m([1;31mmain[0;36m) [0m$ javac ProductTest.java
+[0;32m@bradyyyyy [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-bradyyyyy/Warehouse-Product [0;36m([1;31mmain[0;36m) [0m$ java ProductTest
+Enter the product's information:
+Please enter the product's ID: P001
+Please enter the product's name: Ball
+Please enter the product's sale price: 12.99
+Please enter the product's quantity in stock: 1
+Do you want to add another product? (yes/no): yes
+Please enter the product's ID: P002
+Please enter the product's name: Toy
+Please enter the product's sale price: 50.99
+Please enter the product's quantity in stock: 2
+Do you want to add another product? (yes/no): no
+Displaying all products:
+Product{Product ID: 'P001', Name: 'Ball', Sale Price: $12.99, Quantity in Stock: 1}
+Product{Product ID: 'P002', Name: 'Toy', Sale Price: $50.99, Quantity in Stock: 2}
+[0;32m@bradyyyyy [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-bradyyyyy/Warehouse-Product [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-09-30 22:20:08+00:00 [COMMAND_EXIT_CODE="0"]

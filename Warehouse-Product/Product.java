@@ -39,16 +39,12 @@ public class Product {
         this.salePrice = salePrice;
     }
 
-    public void displayProduct(String id) {
-        if (this.productID.equals(id)) {
-            System.out.println("Product ID: " + productID);
-            System.out.println("Name: " + name);
-            System.out.printf("Sale Price: $%.2f%n", salePrice);
-            System.out.println("Quantity in Stock: " + quantityInStock);
-        } 
-        
-        else {
-            System.out.println("No product found with Product ID: " + id);
-        }
+    public String toString() {
+        return "Product{" +
+                "Product ID: '" + productID + '\'' +
+                ", Name: '" + name + '\'' +
+                ", Sale Price: $" + String.format("%.2f", salePrice) +
+                ", Quantity in Stock: " + quantityInStock +
+                '}';
     }
 }
