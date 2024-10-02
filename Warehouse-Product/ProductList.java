@@ -11,6 +11,11 @@ public class ProductList {
         products = new LinkedList<>();
     }
 
+    public LinkedList<Product> getList() {
+        return products;
+    }
+
+
     public void addProduct(Product product) {
         products.add(product);
         System.out.println("Product added: " + product);
